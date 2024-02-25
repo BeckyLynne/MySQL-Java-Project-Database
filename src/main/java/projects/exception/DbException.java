@@ -3,6 +3,7 @@ package projects.exception;
 public class DbException extends RuntimeException {
 
 	public DbException() {
+		System.out.println("I;m the issue");
 	}
 	
 	public DbException(String message) {
