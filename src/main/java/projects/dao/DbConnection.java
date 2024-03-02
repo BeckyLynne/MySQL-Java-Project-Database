@@ -26,7 +26,7 @@ import projects.exception.DbException;
 			} 	catch (SQLException e) {
 				System.out.println("Error getting connection.");
 				throw new DbException(e);
-			//	e.printStackTrace();
+			
 			}
 
 		}
